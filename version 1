@@ -15,3 +15,5 @@
 df[df['location']=='Vietnam']['daily_new_cases']
 
 df.groupby('location')['daily_new_cases'].plot(kind='line')
+
+$ jupyter nbconvert --to html version1.ipynb
